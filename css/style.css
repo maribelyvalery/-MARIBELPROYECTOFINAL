@@ -1,0 +1,178 @@
+#logo{
+width:100% ;
+height: 120px;
+}
+
+#menu{
+background-color: #FF5757 !important;
+}
+
+.nav-link{
+    color: aliceblue;
+    font-weight: bold;
+
+}
+
+/* dimensionar las images del caroosel */
+.alto-img{
+    height: 600px !important;
+}
+
+/* comentario novedades */
+#novedades{
+background-color: rgb(0, 255, 136)!important; 
+
+  
+}
+
+.alto-img{
+    width: 100%;
+    height: 650px;
+}
+
+#novedades .titulo{
+    width: 100%;
+    text-align:center ;
+    color:blueviolet;
+    font-weight: 700;
+    padding-top: 5px;
+    
+}
+
+/* videos */
+#videos .titulo{
+    width: 100%;
+    text-align: center;
+}
+
+body{
+    /* activa o quita las barras de desplazamientos */
+    overflow-x: hidden;
+
+
+}
+
+
+/* footer */
+#page-footer{
+    background-color: #FF5757 ;
+}
+
+#page-footer a{
+    color: #fff;
+}
+
+#page-footer .ftcontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    padding-top:40px 0;
+    flex-wrap: nowrap;
+}
+
+.footer__menu{
+    max-width: 300px;
+    grid-column: 1/3;
+    grid-row-start: 1;
+    padding-left: 1em;
+}
+
+.footer__menu figure{
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+
+}
+
+.footer__logo{
+    width: 210px;
+}
+
+#page-footer .ftcontainer {
+    max-width: 1200px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 70px 0; 
+}
+
+.ft-social{
+    color: #fff;
+    border-radius: 100%;
+    height: auto;
+    width: 50px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: inherit;
+}
+
+.ft-link{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer__title{
+    color: #fff;
+    font-weight: 700;
+    margin-bottom:30px;
+    font-size:1.2rem;
+}
+
+.footer__info{
+    color: #fff;
+    line-height:30px;
+    font-size: 1.0rem;
+}
+
+.footer__link:nth-child(1){
+    border-left: 2px solid #f3d707;
+}
+.footer__link:nth-child(2){
+    border-left: 2px solid #12d608;
+}
+.footer__link:nth-child(3){
+    border-left: 2px solid #f36507;
+}
+
+.footer-credits{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #FF5757;
+
+
+}
+
+/* pagina contacto */
+#contacto .titulo{
+    width: 100%;
+    text-align: center;
+    margin-top: 115px;
+
+}
+
+/* seccion pagos */
+#pagos .titulo{
+    width: 100%;
+    text-align: center;
+}
+
+#pagos img{
+    width: 50%;
+    height: 600px;
+    margin: 0  auto;
+}
+
+
+/* seccion chococonos */
+#chococonos .titulo{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
